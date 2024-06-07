@@ -8,7 +8,7 @@ export default defineComponent({
 
 <template>
   <div class="projetos">
-    <h1 class="title">Projetos</h1>
+    <h1 class="title">Projects</h1>
     <RouterView />
   </div>
 </template>

@@ -37,7 +37,7 @@ export default defineComponent({
       <span class="icon is-small">
         <i class="fas fa-plus"></i>
       </span>
-      <span>Novo Projeto</span>
+      <span>New project</span>
     </RouterLink>
     <table class="table is-fullwidth">
       <thead>
