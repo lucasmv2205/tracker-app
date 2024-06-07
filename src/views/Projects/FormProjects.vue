@@ -105,7 +105,7 @@ export default defineComponent({
 <template>
   <form @submit.prevent="save">
     <div class="field">
-      <label class="label" for="projectName">Nome Do Projeto</label>
+      <label class="label" for="projectName">Project name</label>
       <input type="text" class="input" v-model="projectName" id="projectName" />
     </div>
     <div class="field">
