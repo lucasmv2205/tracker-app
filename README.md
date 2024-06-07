@@ -10,15 +10,15 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Run the server
+
+install the json-server first
+
 ```
-npm run build
+npm install -g json-server
 ```
 
-### Lints and fixes files
+now run
 ```
-npm run lint
+json-server --watch db.json --port 3333
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
